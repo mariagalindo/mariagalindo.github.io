@@ -2,27 +2,96 @@
 <html>
     
 <head>
-          <title>Maria Galindo</title>
-          <meta charset="utf-8" />
-          <link rel="stylesheet" href="css/stylesheet.css" />
-</head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Maria Galindo" />
+	<meta name="description" content="Personal page of Maria Galindo, University of Florida student." />
+	<meta name="keywords" content="Maria Galindo, Maria A. Galindo" />
+    <title>Maria Galindo's Resume</title>
     
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <script type="text/javascript"> 
+        function showHideDiv(id){
+  var obj = document.getElementById(id);
+    if (obj.style.display=="none"){
+      obj.style.display='block';
+    } else if(obj.style.display=="block"){
+      obj.style.display='none';
+    }
+}
+    </script>
+    
+</head>
+<header>
+    <img src="images/header.jpg" width="800" title="Maria Galindo" alt="Maria Galindo" />
+</header> 
+<nav><ul> 
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="about.html">ABOUT</a></li>
+    <li><a href="resume.html">RESUME</a></li>
+    <li><a href="contact.html">CONTACT</a></li>
+</ul></nav> 
 <body>
-    <header>
-        <img src="images/header.jpg" width="800" title="Maria Galindo" alt="Maria Galindo" />
-    </header>
-    <nav> 
-        <center><a href="index.html">HOME</a> &nbsp; &nbsp;  &nbsp;
-        <a href="about.html">ABOUT</a>  &nbsp; &nbsp; &nbsp;
-        <a href="resume.html">RESUME</a>  &nbsp; &nbsp; &nbsp;
-        <a href="http://www.mariagalindoblog.wordpress.com">BLOG</a> &nbsp;  &nbsp; &nbsp;
-        <a href="contact.html">CONTACT</a></center>
-    </nav>
     <article>
-         <img src="images/galindoresume.jpg" width="800" title="Resume" alt="Resume" />
+        <h1>Where I've been, what I've done and what I can do</h1>
+        <p>I'm a University of Florida senior studying economics and journalism. I have experience in international trade and logistics, account management, customer service, team leadership, marketing and the excellent communication and interpersonal skills that a journalism degree and a year's worth of reporting experience provide. </p>
+        <p>According to Gallup's StrengthFinder 2.0 my strengths are <a href="http://businessjournal.gallup.com/content/709/restorative.aspx"target="_blank">restorative,</a> <a href="http://businessjournal.gallup.com/content/688/input.aspx"target="_blank">input,</a> <a href="http://businessjournal.gallup.com/content/655/context.aspx"target="_blank"> context,</a> <a href="http://businessjournal.gallup.com/content/685/individualization.aspx"target="_blank">individualization</a> and <a href="http://businessjournal.gallup.com/content/718/strategic.aspx"target="_blank">strategic.</a></p>
+        <h1><a href="#" onclick="showHideDiv('div-1')"><img src="images/div1.jpg" title="Education" alt="Education" /></a></h1>
+        <div id="div-1" style="display:none;">
+            <h2>Univeristy of Florida, Gainesville, FL</h2>
+            <p>Bachelor of Science in Economics, May 2014</p><h4>Coursework in international trade, accounting, management, monetary economics, business law, marketing and finance.</h4>
+            <p>Bachelor of Science in Journalism, May 2014</p><h4>Coursework in reporting, photojournalism, editing, web design, magazine writing and mass communication law.</h4>
+        </div>
+        <h1><a href="#" onclick="showHideDiv('div-2')"><img src="images/div2.jpg" title="Business Experience" alt="Business Experience" /></a></h1>
+        <div id="div-2" style="display:none;">
+            <h2>Citigroup, New York City, NY</h2>
+            <p>Analyst, July 2014 - July 2016 (Expected)</p><h4>Hired to work in Operations and Technology department of <a href="http://www.citibank.com/icg/about_us/index.jsp"target="_blank">Institutional Clients Group.</a></h4>
+            <h2>Asencoex, Miami, FL</h2>
+            <p>Intern, June 2013 - August 2013</p><h4>Worked in the logistics, finance and account management departments as part of rotational program for <a href="http://www.asencoex.com/"target="_blank">supply chain management solutions firm</a> and non-vessel operating common carrier exporting to Latin America from Italy, China, and the United States.
+Developed analytical and problem-solving skills while gaining international trade knowledge by managing, creating, validating and providing guidance on all import and export documents for daily air shipments to El Salvador. 
+Coordinated efforts with supply chain personnel at the company's agent office in El Salvador to ensure communication, cost savings and efficiency in delivery of goods.</h4>
+            </div>
+        <h1><a href="#" onclick="showHideDiv('div-3')"><img src="images/div3.jpg" title="Journalism Experience" alt="Journalism Experience" /></a></h1>
+        <div id="div-3" style="display:none;">
+            <h2>The Independent Florida Alligator, Gainesville, FL</h2>
+            <p>Writer, August 2011 - May 2012</p><h4>Worked as a reporter covering campus and lifestyle news for the <a href="http://www.alligator.org"target="_blank">largest student-run newspaper in the nation,</a> with a readership of over 55,000.</h4>
+            <h2>ULoop Student News Network</h2>
+            <p>Intern, January 2012 - April 2012</p><h4>Reported on feature stories focused on the college-student lifestyle <a href="http://www.uloop.com/news/"target="_blank">university-dedicated news wire site</a> with over 65,000 views per month. Had two articles featured in The Huffington Post.</h4>
+            <h2>Love Twenty Magazine</h2>
+            <p>Intern, August 2011 - December 2011</p><h4>Wrote weekly stories, focusing on workplace and interview etiquette for <a href="http://www.lovetwenty.com/"target="_blank"> women's lifestyle online magazine</a> with an audience of over 30,000.</h4>
+            </div>
+        <h1><a href="#" onclick="showHideDiv('div-4')"><img src="images/div4.jpg" title="Leadership Experience" alt="Leadership Experience" /></a></h1>
+        <div id="div-4" style="display:none;">
+	 <h2>Freshman Leadership Council, Gainesville, FL</h2>
+            <p>Vice Chair of Public Relations, May 2013 - Present</p><h4>Managed a team of 14 people in planning recruitment efforts targeting more than 6,000 freshmen for one of the most prestigious student organizations in the University of Florida, selecting only about 10% of its applicants yearly 
+Led the expansion of the organization's online brand by the publication of a website and the promotion of the organization's accomplishments through innovative social media strategies. 
+Devised marketing strategies to increase attendance to the agency’s philanthropic and civic-engagement events.</h4>
+            <p>Programing Director, August 2011 - April 2012</p><h4>Designed leadership development workshops for University of Florida freshmen as part of a student government cabinet designed to provide personal, professional and leadership growth to the UF freshman class. </h4></div>
+        <h1><a href="#" onclick="showHideDiv('div-5')"><img src="images/div5.jpg" title="Awards And Affiliations" alt="Awards And Affiliations" /></a></h1>
+        <div id="div-5" style="display:none;">
+	<h2>Golden Key Honor Society</h2>
+            <h4>Invited to join <a href="http://www.goldenkey.org/‎"target="_blank">honors organization</a> recognizing academic excellence.</h4>
+            <h2>University of Florida Presidential Scholarship</h2>
+            <h4>Recipient of a $12,000 merit scholarship awarded to high-achieving students.</h4>
+        </div>
+        <h1><a href="#" onclick="showHideDiv('div-6')"><img src="images/div6.jpg" title="Skills" alt="Skills" /></a></h1>
+        <div id="div-6" style="display:none;">
+	   <h2>Languages</h2>
+        <h4>Spanish (fluent)<br>Italian (basic)</h4>
+        <h2>Computer</h2>
+        <h4>Microsoft Office<br>Adobe InDesign<br>Adobe Photoshop<br>Magaya Supply Chain Software<br>HTLM 5 (Basic)<br>CSS (Basic)</h4>
+        </div>
+    <p><a href="resume.pdf"target="_blank">Download</a> a PDF copy of my resume.</p>
     </article>
     <footer>
-        <h3 align=right>&copy; 2013 Maria Galindo. All rights reserved.</h3>
+        <a class="socialIcons" href="http://twitter.com/mariagalindo" title="Follow Maria Galindo on Twitter" alt="Maria Galindo Twitter Icon" target="_blank"><img src="images/twitter.png" align= "center"/></a>
+        <a class="socialIcons" href="http://instagram.com/magalindooo" title="Follow Maria Galindo on Instagram" alt="Maria Galindo Instagram Icon" target="_blank"><img src="images/instagram.png" align= "center"/></a>
+        <a class="socialIcons" href="http://pinterest.com/mariagalindo" title="Follow Maria Galindo on Pinterest" alt="Maria Galindo Pinterest Icon" target="_blank"><img src="images/pinterest.png" align= "center"/></a>
+        <a class="socialIcons" href="http://www.flickr.com/photos/maria_a_galindo/" title="Follow Maria Galindo's Flickr Photostream" alt="Maria Galindo Flickr Icon" target="_blank"><img src="images/flickr.png" align= "center"/></a>
+        <a class="socialIcons" href="http://bymariagal.wordpress.com" title="Follow Maria Galindo's Blog on Wordpress" alt="Maria Galindo Wordpress Icon" target="_blank"><img src="images/wordpress.png" align= "center"/></a>
+        <a class="socialIcons" href="https://google.com/+mariagalindo92" title="Add Maria Galindo to Your Circles on Google Plus" alt="Maria Galindo Google Plus Icon" target="_blank"><img src="images/googleplus.png" align= "center"/></a>
+        <a class="socialIcons" href="http://www.linkedin.com/in/galindomaria" title="Connect with Maria Galindo on LinkedIn" alt="Maria Galindo LinkedIn Icon" target="_blank"><img src="images/linkedin.png" align= "center"/></a><br>&copy; 2013 Maria Galindo. All rights reserved
     </footer>
 </body>
     
