@@ -144,6 +144,10 @@ footer img {
     h1 {
         text-align:center;
     }
+    article iframe {
+    width: 100%;
+    height:auto;
+    }
     footer {
         text-align:center;
     }
